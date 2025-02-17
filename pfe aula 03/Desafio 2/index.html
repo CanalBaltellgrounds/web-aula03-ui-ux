@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Produtos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .product-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .product-item {
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .product-name {
+            font-weight: bold;
+        }
+        .product-price {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de Produtos</h1>
+    <ul class="product-list" id="product-list">
+        <!-- Os produtos serão inseridos aqui via JavaScript -->
+    </ul>
+
+    <script>
+        // Dados dos produtos (simulando o conteúdo do produtos.json)
+        const produtos = [
+            {
+                "id": 1,
+                "nome": "Camiseta",
+                "descricao": "Camiseta branca adulto flame",
+                "preco": 20.0,
+                "imagem": "https://cdn.awsli.com.br/800x800/960/960037/produto/50073660/camiseta-branca-infantil-flame-rrgtnt.jpg"
+            },
+            {
+                "id": 2,
+                "nome": "Calça",
+                "descricao": "Calça jeans azul adulto",
+                "preco": 50.0,
+                "imagem": "https://http2.mlstatic.com/D_NQ_NP_943050-MLB52237420974_112022-O.webp"
+            },
+            {
+                "id": 3,
+                "nome": "Camiseta",
+                "descricao": "Camiseta branca feminina flame",
+                "preco": 25.0,
+                "imagem": "https://cdn.awsli.com.br/800x800/960/960037/produto/50073660/camiseta-branca-infantil-flame-rrgtnt.jpg"
+            },
+            {
+                "id": 4,
+                "nome": "Calça",
+                "descricao": "Calça jeans azul infantil",
+                "preco": 55.0,
+                "imagem": "https://http2.mlstatic.com/D_NQ_NP_943050-MLB52237420974_112022-O.webp"
+            },
+            {
+                "id": 5,
+                "nome": "Tênis",
+                "descricao": "Tênis unissex Nike SB Force 58 Pine Green",
+                "preco": 150.0,
+                "imagem": "https://overboard.vteximg.com.br/arquivos/ids/369450-1000-1000/Tenis-Unissex-Nike-SB-Force-58-Pine-Green-VERDE-DV5477-300-0.jpg?v=638337709387830000"
+            },
+            {
+                "id": 6,
+                "nome": "Boné",
+                "descricao": "Boné aba curva preto",
+                "preco": 30.0,
+                "imagem": "https://encrypted-tbn0.gstatic.com/imagems?q=tbn:ANd9GcRJM4t4y6ukJhlzi_AlW9P8u0TqvcoILs7j4g&s"
+            },
+            {
+                "id": 7,
+                "nome": "Mochila",
+                "descricao": "Mochila preta com detalhes em branco",
+                "preco": 100.0,
+                "imagem": "https://images.tcdn.com.br/img/img_prod/886231/mochila_notebook_executiva_preta_seanite_5177_1_35f246a872a91716b01f1aee1fad94e4_20231002115324.jpg"
+            },
+            {
+                "id": 8,
+                "nome": "Relógio",
+                "descricao": "Relógio analógico dourado moundaine",
+                "preco": 80.0,
+                "imagem": "https://seculus.vtexassets.com/arquivos/ids/239090-800-auto?v=638319562827870000&width=800&height=auto&aspect=true"
+            }
+        ];
+
+        // Função para renderizar a lista de produtos
+        function renderProductList(products) {
+            const productList = document.getElementById('product-list');
+
+            products.forEach(product => {
+                const listItem = document.createElement('li');
+                listItem.classList.add('product-item');
+
+                const productName = document.createElement('div');
+                productName.classList.add('product-name');
+                productName.textContent = product.nome;
+
+                const productPrice = document.createElement('div');
+                productPrice.classList.add('product-price');
+                productPrice.textContent = `Preço: R$ ${product.preco.toFixed(2)}`;
+
+                listItem.appendChild(productName);
+                listItem.appendChild(productPrice);
+
+                productList.appendChild(listItem);
+            });
+        }
+
+        // Renderiza a lista de produtos ao carregar a página
+        renderProductList(produtos);
+    </script>
+</body>
+</html>

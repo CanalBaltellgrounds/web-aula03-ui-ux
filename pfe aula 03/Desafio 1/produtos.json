@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "nome": "Macaco Chico",
+        "descricao": "Macaco Adulto,marrom e vermelho",
+        "preco": 100.0,
+        "imagem": "https://imgs.search.brave.com/b8Ak_s7lDismawU4yI9liBtAsu945V76ztesjzw-pbM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudG9kYW1hdGVy/aWEuY29tLmJyL3Vw/bG9hZC9tYS9jYS9t/YWNhY29jYWx2b3Bs/YXR5cnJoaW5pLWNr/ZS5qcGc"
+    },
+    {
+        "id": 2,
+        "nome": "Babu",
+        "descricao": "Macaco jovem",
+        "preco": 1000.0,
+        "imagem": "https://imgs.search.brave.com/xmp5S2vUrEZOVMmpj3i6KC91YOOs4KAooWQWFIyLf6Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zMS5z/dGF0aWMuYnJhc2ls/ZXNjb2xhLnVvbC5j/b20uYnIvYmUvMjAy/MS8wMi9taWNvLWxl/YW8tZG91cmFkby5q/cGc"
+    },
+    {
+        "id": 3,
+        "nome": " Macaco 2 em 1",
+        "descricao": "Camiseta branca feminina flame",
+        "preco": 1000000000.0,
+        "imagem": "https://imgs.search.brave.com/xUJ-JM_31PKeRbqI78KnmAdr-6QyiAGSS_RRyPKn-c4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4w/LnBlcml0b2FuaW1h/bC5jb20uYnIvcHQv/cG9zdHMvOS82LzYv/b3NfYnVnaW9zXzIy/NjY5XzVfNjAwLmpw/Zw"
+    },
+    {
+        "id": 4,
+        "nome": "Sorrisinho",
+        "descricao": "Calça jeans azul infantil",
+        "preco": 55.0,
+        "imagem": "https://imgs.search.brave.com/zxgA_GodfC20SLg4_1mM9h7CbNMR0Zw4N9QiBICfZx4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy85/Lzk0L01vbmtleV9i/YXR1LmpwZw"
+    },
+    {
+        "id": 5,
+        "nome": "Jorge",
+        "descricao": "Tênis unissex Nike SB Force 58 Pine Green",
+        "preco": 150.0,
+        "imagem": "https://imgs.search.brave.com/9UKiQyQtkXJOSO3AL8mZBHTGmpabYC2114P9lJa665o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4w/LnBlcml0b2FuaW1h/bC5jb20uYnIvcHQv/Y29tbWVudHMvOS82/LzYvdGlwb3MtZGUt/bWFjYWNvcy1ub21l/cy1lLWZvdG9zLTI0/MDM2XzYwMC5qcGc"
+    },
+    {
+        "id": 6,
+        "nome": "leoncio",
+        "descricao": "Boné aba curva preto",
+        "preco": 30.0,
+        "imagem": "https://imgs.search.brave.com/U9nucS9SiLXAPStPotb_YODhwCuE1IiHOmG3l-HAKLk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuZXNjb2xha2lk/cy51b2wuY29tLmJy/LzIwMjEvMDQvbWFj/YWNvLmpwZw"
+    },
+    {
+        "id": 7,
+        "nome": "Rei Julious",
+        "descricao": "Mochila preta com detalhes em branco",
+        "preco": 100.0,
+        "imagem": "https://imgs.search.brave.com/khhmjjwm1-0cQKxssoWQn4J6qmkBtG65BZR3xZwTxAQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zb2Np/ZW50aWZpY2EuY29t/LmJyL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDIyLzA5L21vbmtl/eTQtODYyeDcwMC53/ZWJw"
+    },
+    {
+        "id": 8,
+        "nome": "Zebrinha",
+        "descricao": "Relógio analógico dourado moundaine",
+        "preco": 80.0,
+        "imagem": "https://imgs.search.brave.com/uzMVWVih0BkDmQa8stqrErkFHmd9PvE6XHAkDkVf6Ks/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9m/L2ZiL0xpZ2h0bWF0/dGVyX2NoaW1wLmpw/Zw"
+    }
+]
